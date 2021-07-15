@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import EditIcon from "@material-ui/icons/Edit";
-import SimpleModal from "./modal";
 class PostDisplay extends Component {
   state = {
     open: false,
@@ -72,8 +70,6 @@ class PostDisplay extends Component {
             >
               Dislike
             </button>
-
-            <SimpleModal />
             <hr></hr>
           </div>
         </center>
